@@ -11,6 +11,7 @@ plus some Google tools
 ## Before you begin
 * Download the Web OAuth2 key, rename it as secrets.json and save it in functions/config/secrets
 * Download the Firebase admin service key, rename it as admin_fb_key.json and save it in functions
+* Run ```npm install``` on root and functions/ directory
 
 ## IMPORTANT
 For Google Assistant to work you need the Refresh Token from google, this token you can only request the FIRST time you are giving access permission to a certain app, after that, if you try to request the Refresh Token you will get a invalid_grant error, so if you are testing with a application with the permissions already given, you have to go to [Google Account Privacy](https://myaccount.google.com/security) and delete permission access over "Third party apps" so the app can request the access again
