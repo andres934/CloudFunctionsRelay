@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "ewelink-api": "^1.1.1",
-    "firebase-admin": "^8.0.0",
-    "firebase-functions": "^3.0.0",
+    "firebase-admin": "^11.4.1",
+    "firebase-functions": "^3.24.1",
     "googleapis": "^40.0.1",
     "nodejs-assistant": "^0.7.1"
   },
